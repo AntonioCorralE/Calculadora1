@@ -21,7 +21,7 @@ namespace Calculadora1
         {
             int intResultado = 0;
             intResultado = int.Parse(this.txtNumero1.Text) + int.Parse(this.txtNumero2.Text);
-            MessageBox.Show(intResultado.ToString());
+            MessageBox.Show("La sumna es " + intResultado.ToString());
         }
     }
 }
