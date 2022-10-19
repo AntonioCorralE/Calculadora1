@@ -33,6 +33,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.bMultiplicar = new System.Windows.Forms.Button();
+            this.bDividir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtNumero1
@@ -79,11 +80,22 @@
             this.bMultiplicar.UseVisualStyleBackColor = true;
             this.bMultiplicar.Click += new System.EventHandler(this.bMultiplicar_Click);
             // 
+            // bDividir
+            // 
+            this.bDividir.Location = new System.Drawing.Point(434, 183);
+            this.bDividir.Name = "bDividir";
+            this.bDividir.Size = new System.Drawing.Size(95, 23);
+            this.bDividir.TabIndex = 5;
+            this.bDividir.Text = "DIVIDIR";
+            this.bDividir.UseVisualStyleBackColor = true;
+            this.bDividir.Click += new System.EventHandler(this.bDividir_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.bDividir);
             this.Controls.Add(this.bMultiplicar);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -103,6 +115,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button bMultiplicar;
+        private System.Windows.Forms.Button bDividir;
     }
 }
 
