@@ -23,5 +23,13 @@ namespace Calculadora1
             intResultado = int.Parse(this.txtNumero1.Text) + int.Parse(this.txtNumero2.Text);
             MessageBox.Show("La sumna es " + intResultado.ToString());
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int intResultado = 0;
+            intResultado = int.Parse(this.txtNumero1.Text) - int.Parse(this.txtNumero2.Text);
+            MessageBox.Show("La resta es " + intResultado.ToString());
+
+        }
     }
 }
