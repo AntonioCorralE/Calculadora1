@@ -31,5 +31,12 @@ namespace Calculadora1
             MessageBox.Show("La super resta es " + intResultado.ToString());
 
         }
+
+        private void bMultiplicar_Click(object sender, EventArgs e)
+        {
+            int intResultado = 0;
+            intResultado = int.Parse(this.txtNumero1.Text) * int.Parse(this.txtNumero2.Text);
+            MessageBox.Show("La multiplicacion es " + intResultado.ToString());
+        }
     }
 }
